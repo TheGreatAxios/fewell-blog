@@ -67,9 +67,9 @@ class Layout extends React.Component {
           <main>{children}</main>
         </div>
         <Footer>
-          © {new Date().getFullYear()}, Built with
+          © {new Date().getFullYear()} Fewell Counseling.
           {` `}
-          <a href="https:/www.fewellcounseling.com">Back to the main site.</a>
+          <p>Powered by Fleur Technologies</p>
         </Footer>
       </Wrapper>
     )
