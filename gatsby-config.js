@@ -1,10 +1,10 @@
 module.exports = {
   siteMetadata: {
     // edit below
-    title: `Gatsby Starter Personal Blog`,
-    author: `Kyle Matthews`,
-    description: `A starter personal blog with styled components, dark mode, and Netlify CMS.`,
-    siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
+    title: `Fewell Counseling, PLLC Blog`,
+    author: `Natalie Fewell`,
+    description: `The blog for Natalie Fewell's, Fewell Counseling, PLLC`,
+    siteUrl: `https://awesome-varahamihira-69f1a9.netlify.app`,
     social: {
       twitter: `kylemathews`,
     },
@@ -72,7 +72,7 @@ module.exports = {
       options: {
         name: `Gatsby Starter Blog`,
         short_name: `GatsbyJS`,
-        start_url: `/`,
+        start_url: `/blog`,
         background_color: `#ffffff`,
         theme_color: `#663399`,
         display: `minimal-ui`,
