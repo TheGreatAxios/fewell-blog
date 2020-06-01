@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     // edit below
-    title: `Fewell Counseling, PLLC Blog`,
+    title: `Fewell Counseling Blog`,
     author: `Natalie Fewell`,
     description: `The blog for Natalie Fewell's, Fewell Counseling, PLLC`,
     siteUrl: `https://awesome-varahamihira-69f1a9.netlify.app`,
