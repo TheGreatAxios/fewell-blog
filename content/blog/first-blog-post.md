@@ -1,8 +1,8 @@
 ---
 path: Welcome!
 date: 2020-06-01T17:44:06.859Z
-title: Let's me introduce myself
-description: A little about me
+title: Let Me Introduce Myself
+description: 'A Little Bit About me, Natalie Fewell'
 ---
 # About Me
 
