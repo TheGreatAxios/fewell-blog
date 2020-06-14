@@ -1,7 +1,7 @@
 import React from "react"
 import { Link, graphql } from "gatsby"
 import { MDXRenderer } from "gatsby-plugin-mdx"
-
+import { DiscussionEmbed } from 'disqus-react';
 import Bio from "../components/bio"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -12,6 +12,14 @@ class BlogPostTemplate extends React.Component {
     const post = this.props.data.mdx
     const siteTitle = this.props.data.site.siteMetadata.title
     const { previous, next } = this.props.pageContext
+
+
+    const disqusConfig = {
+      shortname: 'fewell',
+      config: {
+        identifier: post.frontmatter.slug
+      }
+    }
 
     return (
       <Layout location={this.props.location} title={siteTitle}>
@@ -37,7 +45,12 @@ class BlogPostTemplate extends React.Component {
           }}
         />
         <Bio />
-
+        <hr
+          style={{
+            marginBottom: rhythm(1),
+          }}
+        />
+        <DiscussionEmbed {...disqusConfig} />
         <ul
           style={{
             display: `flex`,
